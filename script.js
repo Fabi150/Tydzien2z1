@@ -1,4 +1,5 @@
 if (String.prototype.repeat === undefined){
+//if (!(String.prototype.repeat typeof function)){
 	
 	console.log("metoda repeat niezdefiniowana przez przeglądarkę.");
 	
