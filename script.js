@@ -1,7 +1,8 @@
 if (String.prototype.repeat === undefined){
-//if (!(String.prototype.repeat typeof function)){
+//if (typeof String.prototype.repeat !== "function")){
+//if (!("repeat" in  String.prototype)){
 	
-	console.log("metoda repeat niezdefiniowana przez przeglądarkę.");
+	console.log("Metoda repeat niezdefiniowana przez przeglądarkę.");
 	
 	String.prototype.repeat = function (i){
 		
@@ -18,7 +19,7 @@ if (String.prototype.repeat === undefined){
 		
 	} else {
 		
-		console.log("metoda repeat zdefiniowana przez przeglądarkę.");	
+		console.log("Metoda repeat zdefiniowana przez przeglądarkę.");	
 	
 }
 
